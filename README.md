@@ -26,6 +26,16 @@ We get signal!
 ;; Stopping scheduler
 ```
 
+## Resources
+
+Some links to articles I used figuring out everything:
+
+- [stuartsierra/component](https://github.com/stuartsierra/component)
+- [My Clojure Workflow, Reloaded](http://thinkrelevance.com/blog/2013/06/04/clojure-workflow-reloaded)
+- [Retrofitting the Reloaded pattern into Clojure projects](http://martintrojer.github.io/clojure/2013/09/07/retrofitting-the-reloaded-pattern-into-clojure-projects/)
+- [Master Concurrent Processes with core.async](http://www.braveclojure.com/core-async/)
+- [Clojurecore.async API Reference](https://clojure.github.io/core.async/#clojure.core.async/go-loop)
+
 ## License
 
 Copyright © 2015 Aleksander Skjæveland Larsen
