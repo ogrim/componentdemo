@@ -6,9 +6,25 @@ When the system is running, it will print a message every three seconds.
 
 ## Usage
 
-If you jack in in Emacs with CIDER, the user namespace in dev should be loaded by default. Then you can just say `(go)` to make it go..
+If you `cider-jack-in` in Emacs, the user namespace in dev should be loaded and compiled by default. Then you can just say `(go)` to make it go..
 
-For production you will run the main function. Just use `lein run` to watch it go, press any key to gracefully stop.
+For production you will run the main function. Just use `lein run` to watch it go, press `enter` to gracefully stop.
+
+
+```Shell
+lein run
+;; Starting scheduler
+;; Starting app
+;; System is running - Press enter to stop
+We get signal!
+We get signal!
+We get signal!
+We get signal!
+We get signal!
+
+;; Stopping app
+;; Stopping scheduler
+```
 
 ## License
 

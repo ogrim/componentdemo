@@ -45,6 +45,6 @@
 
 (defn -main [& args]
   (let [sys (component/start-system (system {}))]
-    (println ";; System is running - Press any key to stop")
+    (println ";; System is running - Press enter to stop")
     (read-line)
     (component/stop-system sys)))
